@@ -1,0 +1,25 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather App Frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattrmedia/weather-app.git"
+  },
+  "keywords": [
+    "Weather",
+    "NodeJS",
+    "react",
+    "materialize"
+  ],
+  "author": "Matt Roe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattrmedia/weather-app/issues"
+  },
+  "homepage": "https://github.com/mattrmedia/weather-app#readme"
+}
