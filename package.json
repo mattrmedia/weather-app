@@ -4,7 +4,9 @@
   "description": "Weather App Frontend",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build:scss": "node-sass build/scss/styles.scss --output dist/css/ --source-map-embed --source-map-contents",
+    "watch:scss": "npm run build:scss -- --watch",
+    "build": "npm run build:scss"
   },
   "repository": {
     "type": "git",
@@ -17,9 +19,13 @@
     "materialize"
   ],
   "author": "Matt Roe",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mattrmedia/weather-app/issues"
   },
-  "homepage": "https://github.com/mattrmedia/weather-app#readme"
+  "homepage": "https://github.com/mattrmedia/weather-app#readme",
+  "devDependencies": {
+    "materialize-css": "^0.97.8",
+    "node-sass": "^4.2.0"
+  }
 }
