@@ -1,7 +1,16 @@
 .cards {
   display: flex;
+  flex-direction: column;
+  @include breakpoint(md) {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 
-  .card + .card { margin-left: .5rem; }
+  .card + .card {
+    @include breakpoint(md) {
+      margin-left: .5rem;
+    }
+  }
 
   .card {
     flex: 1 1 auto;

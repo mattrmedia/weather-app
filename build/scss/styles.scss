@@ -5,10 +5,10 @@
 @import 'tools/mixins';
 
 /* -------------------------------------------------------- VENDOR */
+@import 'vendor/normalize';
 @import 'vendor/materialize';
 
 /* -------------------------------------------------------- BASE */
-@import 'base/normalize';
 @import 'base/global';
 
 /* -------------------------------------------------------- LAYOUT */
