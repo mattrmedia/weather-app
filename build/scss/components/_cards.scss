@@ -14,5 +14,6 @@
 
   .card {
     flex: 1 1 auto;
+    @include weather();
   }
 }

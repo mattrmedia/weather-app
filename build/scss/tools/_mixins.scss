@@ -8,3 +8,14 @@
     @warn "No breakpoint exists"
   }
 }
+
+@mixin weather() {
+  @each $type, $vars in $weather {
+    &--#{$type} {
+      background-image: map-get($vars, icon);
+      .card-title {
+        color: map-get($vars, header-color);
+      }
+    }
+  }
+}

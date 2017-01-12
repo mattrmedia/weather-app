@@ -2,19 +2,19 @@
 
 $weather: (
   sunny: (
-    header-color: #000, icon: ''
+    header-color: blue, icon: 'assets/image/sunny'
   ),
   rainy: (
-    header-color: #000, icon: ''
+    header-color: red, icon: 'assets/image/rainy'
   ),
   snowy: (
-    header-color: #000, icon: ''
+    header-color: white, icon: 'assets/image/snowy'
   ),
   cloudy: (
-    header-color: #000, icon: ''
+    header-color: grey, icon: 'assets/image/cloudy'
   ),
   severe: (
-    header-color: #000, icon: ''
+    header-color: orange, icon: 'assets/image/severe'
   ),
 );
 
