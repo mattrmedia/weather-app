@@ -1,0 +1,10 @@
+@mixin breakpoint($breakpoint) {
+  $size: map-get($media, $breakpoint);
+  @if $size != null {
+    @media (min-width: $size) {
+      @content;
+    }
+  } @else {
+    @warn "No breakpoint exists"
+  }
+}

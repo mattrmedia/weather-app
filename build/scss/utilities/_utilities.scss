@@ -1,0 +1,19 @@
+.u-clearfix,
+.u-cf {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.u-centered {
+  margin: 0 auto;
+  width: 90%;
+  @include breakpoint(md) {
+    width: 50%;
+  }
+}

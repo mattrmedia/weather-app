@@ -1,0 +1,50 @@
+.input-group {
+  @extend .blue, .darken-2;
+}
+
+/* label color */
+ .input-field label {
+   color: rgba(255,255,255,.5);
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label,
+ .input-field input[type=number]:focus + label  {
+   color: rgba(255,255,255, 1);
+ }
+ .input-field input[type=text],
+ .input-field input[type=number] {
+   border-bottom: 1px solid #fff;
+   color: #fff;
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus,
+ .input-field input[type=number]:focus {
+   border-bottom: 1px solid #fff;
+   box-shadow: 0 1px 0 0 #fff;
+ }
+ /* valid color */
+ .input-field input[type=text].valid,
+ .input-field input[type=number].valid {
+   border-bottom: 1px solid #fff;
+   box-shadow: 0 1px 0 0 #fff;
+ }
+ /* invalid color */
+ .input-field input[type=text].invalid,
+ .input-field input[type=number].invalid {
+   border-bottom: 1px solid $error;
+   box-shadow: 0 1px 0 0 $error;
+ }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #000;
+ }
+
+input#area_code[type="number"]::-webkit-inner-spin-button,
+input#area_code[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input#area_code[type="number"] {
+  -moz-appearance: textfield;
+}

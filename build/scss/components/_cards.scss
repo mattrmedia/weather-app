@@ -1,0 +1,9 @@
+.cards {
+  display: flex;
+
+  .card + .card { margin-left: .5rem; }
+
+  .card {
+    flex: 1 1 auto;
+  }
+}

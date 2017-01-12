@@ -1,1 +1,31 @@
 /* -------------------------------------------------------- VARS */
+
+$weather: (
+  sunny: (
+    header-color: #000, icon: ''
+  ),
+  rainy: (
+    header-color: #000, icon: ''
+  ),
+  snowy: (
+    header-color: #000, icon: ''
+  ),
+  cloudy: (
+    header-color: #000, icon: ''
+  ),
+  severe: (
+    header-color: #000, icon: ''
+  ),
+);
+
+
+$error: #d32f2f;
+
+
+$media: (
+  xs: 23rem,
+  sm: 34rem,
+  md: 48rem,
+  lg: 62rem,
+  xl: 75rem
+);
