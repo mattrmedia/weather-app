@@ -12,7 +12,15 @@
 @mixin weather() {
   @each $type, $vars in $weather {
     &--#{$type} {
-      background-image: map-get($vars, icon);
+      .weather {
+        display: block;
+        height: 100px;
+        background: url(map-get($vars, icon)) no-repeat center;
+        background-size: 100px;
+      }
+      .card-image {
+        background-color:map-get($vars, header-color);
+      }
       .card-title {
         color: map-get($vars, header-color);
       }

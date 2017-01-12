@@ -16,4 +16,8 @@
     flex: 1 1 auto;
     @include weather();
   }
+
+  .card-image {
+    padding: 20px 0;
+  }
 }

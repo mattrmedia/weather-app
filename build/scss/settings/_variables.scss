@@ -2,19 +2,22 @@
 
 $weather: (
   sunny: (
-    header-color: blue, icon: 'assets/image/sunny'
+    header-color: blue, icon: '../assets/svgs/sunny.svg'
   ),
   rainy: (
-    header-color: red, icon: 'assets/image/rainy'
+    header-color: red, icon: '../assets/svgs/rainy.svg'
   ),
   snowy: (
-    header-color: white, icon: 'assets/image/snowy'
+    header-color: green, icon: '../assets/svgs/snowy.svg'
   ),
   cloudy: (
-    header-color: grey, icon: 'assets/image/cloudy'
+    header-color: grey, icon: '../assets/svgs/cloudy.svg'
   ),
-  severe: (
-    header-color: orange, icon: 'assets/image/severe'
+  stormy: (
+    header-color: orange, icon: '../assets/svgs/stormy.svg'
+  ),
+  p-cloudy: (
+    header-color: grey, icon: '../assets/svgs/part-cloudy.svg'
   ),
 );
 
